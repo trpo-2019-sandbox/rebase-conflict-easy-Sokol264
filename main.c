@@ -25,10 +25,12 @@ int main()
 
 
     printf("Array: ");
+
     int i;
 
     for (i = 0; i < N_ELEMENTS(arr); ++i) {
-        printf("%d ", arr[i]);
+        printf(", %d", arr[i]);
+
     }
     printf("\n");
 
